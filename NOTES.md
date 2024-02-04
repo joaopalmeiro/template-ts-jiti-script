@@ -4,6 +4,7 @@
 
 - https://nodejs.org/en/about/previous-releases
 - https://docs.deno.com/runtime/manual/node
+- https://biomejs.dev/internals/changelog/
 
 ## Commands
 
