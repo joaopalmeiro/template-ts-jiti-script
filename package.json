@@ -1,0 +1,24 @@
+{
+  "name": "template-ts-jiti-script",
+  "version": "0.0.0",
+  "private": true,
+  "description": "Opinionated TypeScript + jiti template for new scripts.",
+  "license": "MIT",
+  "author": "João Palmeiro",
+  "type": "module",
+  "scripts": {
+    "dev": "jiti src/index.ts",
+    "format": "run-s format:pkgJson format:code",
+    "format:code": "biome check --apply .",
+    "format:pkgJson": "sort-package-json",
+    "lint": "run-s lint:pkgJson lint:code",
+    "lint:code": "biome lint .",
+    "lint:pkgJson": "sort-package-json --check"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "1.5.3",
+    "jiti": "1.21.0",
+    "npm-run-all2": "6.1.2",
+    "sort-package-json": "2.7.0"
+  }
+}
