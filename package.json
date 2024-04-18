@@ -4,7 +4,11 @@
   "private": true,
   "description": "Opinionated TypeScript + jiti template for new scripts.",
   "license": "MIT",
-  "author": "João Palmeiro",
+  "author": {
+    "name": "João Palmeiro",
+    "email": "joaopalmeiro@proton.me",
+    "url": "https://github.com/joaopalmeiro"
+  },
   "type": "module",
   "scripts": {
     "dev": "jiti src/index.ts",
@@ -16,9 +20,12 @@
     "lint:pkgJson": "sort-package-json --check"
   },
   "devDependencies": {
-    "@biomejs/biome": "1.5.3",
+    "@biomejs/biome": "1.6.3",
     "jiti": "1.21.0",
     "npm-run-all2": "6.1.2",
     "sort-package-json": "2.7.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
   }
 }

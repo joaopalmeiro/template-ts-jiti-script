@@ -1,15 +1,15 @@
 # Notes
 
-## Template References
-
-- https://nodejs.org/en/about/previous-releases
-- https://docs.deno.com/runtime/manual/node
-- https://biomejs.dev/internals/changelog/
+- https://github.com/joaopalmeiro/template-ts-jiti-script
 
 ## Commands
 
 ```bash
-npm install ... && npm install -D @biomejs/biome sort-package-json jiti npm-run-all2
+npm install -D \
+@biomejs/biome \
+jiti \
+npm-run-all2 \
+sort-package-json
 ```
 
 ```bash
