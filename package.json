@@ -21,7 +21,7 @@
   },
   "devDependencies": {
     "@biomejs/biome": "1.6.3",
-    "jiti": "1.21.0",
+    "jiti": "1.21.6",
     "npm-run-all2": "6.1.2",
     "sort-package-json": "2.10.0"
   },
