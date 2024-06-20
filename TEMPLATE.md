@@ -6,6 +6,9 @@
   - https://biomejs.dev/internals/changelog/
   - https://biomejs.dev/linter/rules/no-nodejs-modules/
 - https://github.com/keithamus/sort-package-json/releases
+- jiti:
+  - https://www.npmjs.com/package/jiti
+  - https://github.com/unjs/jiti/releases
 
 ## Commands
 
