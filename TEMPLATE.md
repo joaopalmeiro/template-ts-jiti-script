@@ -5,6 +5,7 @@
 - Biome:
   - https://biomejs.dev/internals/changelog/
   - https://biomejs.dev/linter/rules/no-nodejs-modules/
+- https://github.com/keithamus/sort-package-json/releases
 
 ## Commands
 
